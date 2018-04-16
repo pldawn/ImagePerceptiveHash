@@ -143,7 +143,7 @@ public class ImagePHash {
         return (img.getRGB(x, y)) & 0xff;
     }
 
-    // DCT function stolen from http://stackoverflow.com/questions/4240490/problems-with-dct-and-idct-algorithm-in-java
+    // DCT function from http://stackoverflow.com/questions/4240490/problems-with-dct-and-idct-algorithm-in-java
 
     private double[] c;
     private void initCoefficients() {
